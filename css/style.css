@@ -35,8 +35,8 @@ header section {
 }
 
 header section .user_image {
-  width: 150px;
-  height: 150px;
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
   margin-top: 10%;
 }
@@ -92,6 +92,7 @@ main {
 
 main section {
   height: 100%;
+  border-bottom: 2px solid rgba(94, 94, 94, 0.2);
 }
 
 main section h1 {
@@ -115,7 +116,7 @@ main .description {
   display: flex;
   width: 90%;
   margin: 0 auto;
-  margin-top: 10%;
+  margin-top: 12%;
 }
 
 main .description .user_image_description {
@@ -152,9 +153,31 @@ main .description .user_info_description {
 
 main .description .user_info_description p {
   padding: 5px 0;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 main .description .user_info_description p span {
   color: rgb(78, 78, 78);
+}
+
+section .skills_wrapper {
+  margin-top: 10%;
+  display: flex;
+}
+
+section .skills_wrapper div {
+  width: 50%;
+  padding: 90px 20px;
+}
+
+section .skills_wrapper div p {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: rgb(92, 92, 92);
+  padding: 1% 0;
+}
+
+section .skills_wrapper div meter {
+  width: 50%;
+  float: right;
 }
