@@ -1,0 +1,160 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 25vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(82, 110, 252);
+  color: rgb(255, 255, 255);
+}
+
+header section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10%;
+}
+
+header section .user_image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-top: 10%;
+}
+
+header section .user_image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+header section h1 {
+  margin-top: 5%;
+  font-size: 2rem;
+}
+
+header section span {
+  font-size: 0.9rem;
+  font-weight: medium;
+  margin-top: 3%;
+}
+
+nav {
+  height: 40%;
+  margin-top: 10%;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  padding: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 1.4rem;
+  transition: all 1s ease;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+  margin-left: 30%;
+}
+
+main {
+  margin-left: 25.3%;
+  width: 75vw;
+  height: 100vh;
+  transition: all 2s ease;
+}
+
+main section {
+  height: 100%;
+}
+
+main section h1 {
+  font-size: 3rem;
+  color: rgb(61, 61, 61);
+  padding: 5% 0 0 5%;
+}
+
+main section h1::after {
+  content: "";
+  width: 18%;
+  height: 5px;
+  background-color: rgb(255, 89, 89);
+  left: 0;
+  position: relative;
+  display: block;
+  top: 10px;
+}
+
+main .description {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 10%;
+}
+
+main .description .user_image_description {
+  border-radius: 50%;
+}
+
+main .description .user_image_description img {
+  border-radius: 50%;
+}
+
+main .description .user_info {
+  display: flex;
+  flex-direction: column;
+  padding-left: 3%;
+}
+
+main .description .user_info h2 {
+  padding-bottom: 2%;
+  color: rgb(61, 61, 61);
+  font-size: 1.8rem;
+}
+
+main .description .user_info p {
+  color: rgb(147, 147, 147);
+  font-size: 1.2rem;
+}
+
+main .description .user_info_description {
+  display: flex;
+  margin-top: 4%;
+  justify-content: space-between;
+  height: 100%;
+}
+
+main .description .user_info_description p {
+  padding: 5px 0;
+  font-size: 1rem;
+}
+
+main .description .user_info_description p span {
+  color: rgb(78, 78, 78);
+}
