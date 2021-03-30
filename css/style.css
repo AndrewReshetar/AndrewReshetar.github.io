@@ -80,7 +80,7 @@ nav ul li a {
 
 nav ul li a:hover {
   text-decoration: underline;
-  margin-left: 30%;
+  margin-left: 15%;
 }
 
 main {
@@ -163,6 +163,7 @@ main .description .user_info_description p span {
 section .skills_wrapper {
   margin-top: 10%;
   display: flex;
+  background-color: rgb(246, 247, 255);
 }
 
 section .skills_wrapper div {
@@ -180,4 +181,25 @@ section .skills_wrapper div p {
 section .skills_wrapper div meter {
   width: 50%;
   float: right;
+}
+
+section .interests_wrapper {
+  margin-top: 10%;
+  background-color: rgb(246, 247, 255);
+  padding: 2%;
+}
+
+section .interests_wrapper .row-hobbies-one {
+  display: flex;
+  justify-content: space-around;
+}
+
+section .interests_wrapper .row-hobbies-two {
+  display: flex;
+  justify-content: center;
+}
+
+section .interests_wrapper .row-hobbies-three {
+  display: flex;
+  justify-content: space-around;
 }
